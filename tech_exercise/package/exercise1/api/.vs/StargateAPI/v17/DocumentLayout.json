@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Matt\\Desktop\\workspace\\tech_review\\tech_exercise_v.0.0.3\\tech_exercise\\package\\exercise1\\api\\",
+  "WorkspaceRootPath": "C:\\Users\\Matt\\Desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C54C77C-FB68-415D-B105-8C81D8D84298}|StargateAPI.csproj|c:\\users\\matt\\desktop\\workspace\\tech_review\\tech_exercise_v.0.0.3\\tech_exercise\\package\\exercise1\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C54C77C-FB68-415D-B105-8C81D8D84298}|StargateAPI.csproj|c:\\users\\matt\\desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C54C77C-FB68-415D-B105-8C81D8D84298}|StargateAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C54C77C-FB68-415D-B105-8C81D8D84298}|StargateAPI.csproj|c:\\users\\matt\\desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\data\\astronautdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C54C77C-FB68-415D-B105-8C81D8D84298}|StargateAPI.csproj|solutionrelative:data\\astronautdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C54C77C-FB68-415D-B105-8C81D8D84298}|StargateAPI.csproj|c:\\users\\matt\\desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\data\\astronautduty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C54C77C-FB68-415D-B105-8C81D8D84298}|StargateAPI.csproj|solutionrelative:data\\astronautduty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C54C77C-FB68-415D-B105-8C81D8D84298}|StargateAPI.csproj|c:\\users\\matt\\desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\data\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C54C77C-FB68-415D-B105-8C81D8D84298}|StargateAPI.csproj|solutionrelative:data\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +38,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AstronautDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Matt\\Desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\Data\\AstronautDetail.cs",
+              "RelativeDocumentMoniker": "Data\\AstronautDetail.cs",
+              "ToolTip": "C:\\Users\\Matt\\Desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\Data\\AstronautDetail.cs",
+              "RelativeToolTip": "Data\\AstronautDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T15:11:16.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AstronautDuty.cs",
+              "DocumentMoniker": "C:\\Users\\Matt\\Desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\Data\\AstronautDuty.cs",
+              "RelativeDocumentMoniker": "Data\\AstronautDuty.cs",
+              "ToolTip": "C:\\Users\\Matt\\Desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\Data\\AstronautDuty.cs",
+              "RelativeToolTip": "Data\\AstronautDuty.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T15:11:15.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Matt\\Desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\Data\\Person.cs",
+              "RelativeDocumentMoniker": "Data\\Person.cs",
+              "ToolTip": "C:\\Users\\Matt\\Desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\Data\\Person.cs",
+              "RelativeToolTip": "Data\\Person.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:44:32.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Matt\\Desktop\\workspace\\tech_review\\tech_exercise_v.0.0.3\\tech_exercise\\package\\exercise1\\api\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Matt\\Desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Matt\\Desktop\\workspace\\tech_review\\tech_exercise_v.0.0.3\\tech_exercise\\package\\exercise1\\api\\Program.cs",
+              "ToolTip": "C:\\Users\\Matt\\Desktop\\workspace\\stargate-api\\tech_exercise\\package\\exercise1\\api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAADwvxAAAABCAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvx0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T14:04:08.553Z",
               "EditorCaption": ""

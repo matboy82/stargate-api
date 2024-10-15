@@ -20,7 +20,16 @@ builder.Services.AddDbContext<StargateContext>(options =>
 
 builder.Services.AddTransient<Seeder>();
 
+
+
 var app = builder.Build();
+
+app.UseCors(builder =>
+{
+	builder.AllowAnyOrigin();
+	builder.AllowAnyMethod();
+	builder.AllowAnyHeader();
+});
 
 using (var scope = app.Services.CreateScope())
 {
