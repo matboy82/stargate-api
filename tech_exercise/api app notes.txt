@@ -1,0 +1,42 @@
+Questions I'd ask on real project
+
+1) Is there a real project repo?
+2) why dapper and efcore, is there a preference in toolset? 
+3) UI part says 'show progress on process', this needs more requirements work so I'd tackle that in grooming/etc
+4) what was the architectural reasoning behind the initial api implementation? MediatR w/Command Query
+5) UI part has a lot of abiguity, I'd further develop requirements in the normal agile process grooming/refinement
+6) Are there any wireframes or designs?
+7) Any architecture docs showing long term goals/roadmap?
+8) Any code standards docs or methodologies preferred?
+9) What other test suites are there? (integration, e2e, etc)
+
+
+Steps I took for test
+API
+0) reviewed the existing code and ran as is after unzipping
+1) setup db in program.cs so migrations run
+2) Seeded data
+3) removed MediatR, commands/queries and custom response, mostly personal preference (typically dont use those), they are overhead and standard Service/Repo pattern works better, 
+more maintainable, readable & debuggable, testable and is what most projects use in .net (unit of work)
+4) implemented services & repositories w/Inversion of Control
+5) changed controllers to use services and return ActionResults, which return exactly how a client expects instead of the custom responses
+6) put business rules in services, and data transform in repos, improved defensive coding
+7) got tests stubbed in via VS generator, ran out of time to continue
+
+UI
+1) generated new project with material
+2) generated interfaces/services
+3) connected services to API locally, may have to change port on other machines when run locally
+4) made basic components for the ui to work and show the e2e process
+5) followed standard component development
+6) ran out of time for additional improvements
+
+Other
+
+1) Ran out of time, would have finished tests and logging as per the readme.
+2) ran out of time, would have done a better ui following and designed the UX
+3) Logging, could have used something like datadog/app insights or .net telemetry, FE -> BE
+4) might have misunderstood the CareerEndDate rule, so that might be a bug, would be caught on testing/code review normally
+5) No tests on UI, except the generated, normally unit & cypress component tests would exist
+6) Time boxed this to 6 hours max
+
